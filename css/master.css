@@ -1,0 +1,203 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Chivo&display=swap');
+a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.button{
+  display: block;
+  width: 100%;
+  text-align: center;
+  /* border: 2px solid #000; */
+  background: #000;
+  padding: 25px 0;
+  text-transform: uppercase;
+  border-radius: 35px;
+  color: #fff;
+  font-family: 'Chivo', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+.section{
+  padding: 90px 0 120px 0;
+}
+.section-border{
+  border-bottom: 1px solid #ccc;
+}
+#eye-section{
+
+}
+#eye-section .col-padding{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#eye-section .col-padding .text-area{
+  font-family: 'Chivo', sans-serif;
+}
+#eye-section .text-area h1{
+  font-family: 'Chivo', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#eye-section .text-area p{
+  font-family: 'Chivo', sans-serif;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+}
+#eye-section .text-area .button{
+
+}
+#eye-section .text-area .book-app{
+  display: block;
+  width: 100%;
+  text-align: center;
+  /* border: 2px solid #000; */
+  background: #000;
+  padding: 25px 0;
+  text-transform: uppercase;
+  border-radius: 35px;
+  color: #fff;
+  font-family: 'Chivo', sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+
+}
+#about-us .center{
+  font-family: 'Chivo', sans-serif;
+  font-size: 1.3rem;
+  line-height: 25px;
+}
+#about-us .center h3{
+  font-family: 'Chivo', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+#about-us .center p{
+  margin-bottom: 15px;
+}
+#about-us .center .link{
+  color: black;
+  font-size: .9rem;
+}
+#about-us .center a:hover{
+  text-decoration: underline;
+}
+#our-services .row h1{
+  font-family: 'Chivo', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#our-services .row .col-padding{
+  position: absolute;
+  padding: 0 40px;
+  top: 50%;
+}
+#our-services .row .col-padding ul li{
+  font-family: 'Chivo', sans-serif;
+  font-weight: 800;
+  font-size: 1.9rem;
+  padding: 30px 0;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+#our-services .row .col-padding ul li:first-child{
+  border-top: 1px solid #ccc;
+  border-bottom: none;
+}
+#our-services .row .col-padding ul li:last-child{
+  border: none;
+}
+#gallery .container .photos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Chivo', sans-serif;
+  font-size: 2rem;
+
+}
+#gallery .container .photos img{
+  /* grid: 300px 300px / 3fr 3fr; */
+  margin-right: 20px;
+}
+#gallery [class*="col-"]{
+  display: flex;
+}
+#gallery .col-padding{
+  position: relative;
+  font-family: 'Chivo', sans-serif;
+  font-size: 2rem;
+}
+#gallery .col-padding .title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#blog .container{
+  font-family: 'Chivo', sans-serif;
+}
+#blog .container [class*="col-"]{
+  display: flex;
+}
+#blog .container .title{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+#blog .container .blog-post{
+  width: 100%;
+  height: 350px;
+  border: 1px solid #e8e8e8;
+  border-radius: 7xx`px;
+  overflow: hidden;
+}
+#blog .container .blog-post .blog-post-img{
+  width: 100%;
+  height: auto;
+  background: gray;
+}
+#blog .container .blog-post .blog-post-img img{
+  width: 100%;
+}
+#blog .container .blog-post .blog-post-desc{
+  padding: 15px 20px;
+  weight: 100%;
+  height: 55%;
+}
+#blog .container .blog-post .blog-post-desc h4{
+  font-weight: 600;
+  font-size:1.1rem;
+  padding: 20px 0;
+}
+#blog .container .blog-post .blog-post-desc p{
+  color: #777;
+  font-size:.85rem;
+}
+#blog .container .blog-post .blog-post-desc a{
+  display:block;
+  padding: 20px 0;
+  font-weight: 700;
+  color: #999;
+  font-size:.85rem;
+}
+#footer{
+  background-color: #292929;
+  font-family: 'Chivo', sans-serif;
+}
+#footer .container .col-lg-4 .sector{
+  height: 200px;
+}
+#footer .container .primary{
+  color: #fff;
+  font-weight: 600;
+}
+#footer .container .secondary{
+  color: #ccc;
+}
+#footer .container .sector .location{
+  margin: 15px 0;
+}
